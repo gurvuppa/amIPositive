@@ -46,7 +46,7 @@ namespace amIPositive
                 numberSignLabel.Text = $"{numb} is the origin number";
             }
 
-            if (numb % 7 ==0)
+            if (numb % 7 ==0)                                               // if the number can be divided by 7 and have no remainder go into the statement below
             {
                 divisbleLabel.Text = $"{numb} is divisble by 7";
             }
